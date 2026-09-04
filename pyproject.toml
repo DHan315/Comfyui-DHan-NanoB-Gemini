@@ -1,0 +1,15 @@
+[project]
+name = "arc-nanob-gemini"
+version = "1.0.5"
+description = "ARC-focused Gemini / Nano Banana image generation and editing nodes for ComfyUI, derived from ComfyUI-NanoB-Edit-Gemini."
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/DHan315/ComfyUI-ARC-NanoB-Gemini"
+"Upstream Project" = "https://github.com/comrender/ComfyUI-NanoB-Edit-Gemini"
+"Bug Tracker" = "https://github.com/DHan315/ComfyUI-ARC-NanoB-Gemini/issues"
+
+[tool.comfy]
+PublisherId = "dhan315"
+DisplayName = "ARC NanoB Gemini"

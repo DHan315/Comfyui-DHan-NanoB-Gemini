@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+industry_master_billing.json
+industry_master_billing.md
+nano_debug_latest.txt
+Billing_Backup_*.json
+Billing_Archive_*.json
