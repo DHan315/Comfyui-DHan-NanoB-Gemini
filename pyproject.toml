@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-dhan-nanob-gemini"
 version = "1.0.5"
-description = "ARC-focused Gemini / Nano Banana image generation and editing nodes for ComfyUI, derived from ComfyUI-NanoB-Edit-Gemini."
+description = "Gemini / Nano Banana image generation and editing nodes for ComfyUI, derived from ComfyUI-NanoB-Edit-Gemini."
 license = { file = "LICENSE" }
 dependencies = []
 
@@ -13,3 +13,4 @@ Repository = "https://github.com/DHan315/Comfyui-DHan-NanoB-Gemini"
 [tool.comfy]
 PublisherId = "dhan315"
 DisplayName = "Comfyui-DHan-NanoB-Gemini"
+
