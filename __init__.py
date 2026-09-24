@@ -7,9 +7,9 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "NanoBEditGemini": "NanoB Gemini Editor",
-    "NanoBRefConfig": "NanoB Reference Adapter (Legacy)",
-    "NanoBRefStacker": "NanoB Reference Stacker"
+    "NanoBEditGemini": "Comfyui-DHan-NanoB Gemini Editor",
+    "NanoBRefConfig": "Comfyui-DHan-NanoB Reference Adapter (Legacy)",
+    "NanoBRefStacker": "Comfyui-DHan-NanoB Reference Stacker"
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
