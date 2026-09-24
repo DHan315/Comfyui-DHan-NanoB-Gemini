@@ -156,7 +156,7 @@ class NanoBRefConfig:
     RETURN_TYPES = ("NANO_REF_DATA",)
     RETURN_NAMES = ("ref_data",)
     FUNCTION = "make_config"
-    CATEGORY = "NanoGemini/Legacy"
+    CATEGORY = "Comfyui-DHan/NanoB/Legacy"
 
     def make_config(self, image):
         return ({"image": image},)
@@ -178,7 +178,7 @@ class NanoBRefStacker:
     RETURN_TYPES = ("NANO_REFS",)
     RETURN_NAMES = ("references",)
     FUNCTION = "stack"
-    CATEGORY = "NanoGemini/Reference"
+    CATEGORY = "Comfyui-DHan/NanoB/Reference"
 
     def stack(self, **kwargs):
         bundle = [
@@ -291,7 +291,7 @@ class NanoBEditGemini:
     RETURN_TYPES = ("IMAGE", "STRING")
     RETURN_NAMES = ("IMAGE", "log")
     FUNCTION = "process"
-    CATEGORY = "NanoGemini"
+    CATEGORY = "Comfyui-DHan/NanoB"
 
     def process(self, **kwargs):
         json_path = os.path.join(

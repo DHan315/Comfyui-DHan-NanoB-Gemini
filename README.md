@@ -1,4 +1,4 @@
-# ARC NanoB Gemini for ComfyUI
+# Comfyui-DHan-NanoB-Gemini
 
 An ARC-focused modified implementation of **ComfyUI-NanoB-Edit-Gemini** by **comrender**, for Google Gemini / Nano Banana native image generation and editing in ComfyUI.
 
