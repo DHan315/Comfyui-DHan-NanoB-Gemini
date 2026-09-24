@@ -1,14 +1,14 @@
 # Comfyui-DHan-NanoB-Gemini
 
-An ARC-focused modified implementation of **ComfyUI-NanoB-Edit-Gemini** by **comrender**, for Google Gemini / Nano Banana native image generation and editing in ComfyUI.
+An implementation of **ComfyUI-NanoB-Edit-Gemini** by **comrender**, modified for Google Gemini / Nano Banana native image generation and editing in ComfyUI.
 
-> This project is derived from `comrender/ComfyUI-NanoB-Edit-Gemini` and retains the upstream MIT license and copyright notice. ARC-specific modifications include updated Gemini API behavior, reference handling, workflow-oriented controls, billing/debug tooling, and compositing-safe `match_input` geometry behavior.
+> This project is derived from `comrender/ComfyUI-NanoB-Edit-Gemini` and retains the upstream MIT license and copyright notice. Modifications include updated Gemini API behavior, reference handling, workflow-oriented controls, billing/debug tooling, and compositing-safe `match_input` geometry behavior.
 
 **Upstream project:** https://github.com/comrender/ComfyUI-NanoB-Edit-Gemini
 
-## ARC-specific direction
+## Project direction
 
-This fork is maintained for ARC workflows while remaining usable as a normal ComfyUI custom node. The main node class IDs are intentionally retained for workflow compatibility.
+This fork is maintained for image-editing workflows as a normal ComfyUI custom node. The main node class IDs are intentionally retained for workflow compatibility.
 
 ---
 
@@ -165,3 +165,4 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 - `match_input` uses a compositing-safe geometry path: the primary image is edge-padded without scaling/cropping to Gemini's nearest supported native output ratio, Gemini is called with the explicit ratio/resolution, then the returned image is uniformly scaled back to the padded canvas and only the temporary padding is removed. This restores the exact original W×H without anisotropic stretching.
 - The previous v1.0.4 hard resize path was removed because forcing unequal aspect ratios directly to the source W×H could shift geometry and break downstream masked compositing.
 - Manual aspect-ratio modes continue to use Gemini preset aspect ratio + resolution output sizing.
+
